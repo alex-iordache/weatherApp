@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script defer src="jquery-3.6.0.min.js"></script>
+    <script defer type="module" src="js/controller.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="widget-container">
+      <h1>Weather App Exercise</h1>
+      <div class="weather-container">
+        <form action="#" id="search-form">
+          <input
+            autocomplete="off"
+            type="text"
+            id="autocomplete"
+            placeholder="Enter a place"
+            list="autocomplete-list"
+          />
+        </form>
+        <div id="locations-here"><div class="result-container"></div></div>
+        <hr />
+        <div class="weather-details"></div>
+      </div>
+      <div class="history-weather-api">
+        <h2>History weather from API</h2>
+        <div class="weather-details">
+          <div class="daily-weather">
+            <div class="day-name">Thursday</div>
+            <div class="temp">18 - 19 Celsius</div>
+            <div class="description">Cloudy</div>
+          </div>
+          <div class="daily-weather">
+            <div class="day-name">Thursday</div>
+            <div class="temp">18 - 19 Celsius</div>
+            <div class="description">Cloudy</div>
+          </div>
+          <div class="daily-weather">
+            <div class="day-name">Thursday</div>
+            <div class="temp">18 - 19 Celsius</div>
+            <div class="description">Cloudy</div>
+          </div>
+        </div>
+      </div>
+      <div class="history-weather-local-storage">
+        <h2>History weather from Local Storage</h2>
+        <div class="weather-details">
+          <div class="daily-weather">
+            <div class="day-name">Thursday</div>
+            <div class="temp">18 - 19 Celsius</div>
+            <div class="description">Cloudy</div>
+          </div>
+          <div class="daily-weather">
+            <div class="day-name">Thursday</div>
+            <div class="temp">18 - 19 Celsius</div>
+            <div class="description">Cloudy</div>
+          </div>
+          <div class="daily-weather">
+            <div class="day-name">Thursday</div>
+            <div class="temp">18 - 19 Celsius</div>
+            <div class="description">Cloudy</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

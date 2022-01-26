@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+
+body {
+  box-sizing: border-box;
+  font-family: "Abel", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: ghostwhite;
+}
+
+h1,
+h2,
+form {
+  text-align: center;
+}
+
+input,
+button {
+  border: none;
+  padding: 5px;
+  font-size: 20px;
+}
+
+input {
+  width: 100%;
+}
+
+input:focus {
+  outline: none;
+}
+button {
+  cursor: pointer;
+}
+
+.widget-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 1000px;
+}
+
+.weather-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.daily-weather {
+  background-color: rgb(239, 239, 255);
+  padding: 20px;
+  margin-top: 10px;
+}
+
+.daily-weather:not(:last-child) {
+  margin-right: 20px;
+}
+
+#locations-here {
+  position: relative;
+}
+
+.result-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: whitesmoke;
+  width: 100%;
+  padding: 5px;
+}
+
+.result {
+  cursor: pointer;
+}
